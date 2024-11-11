@@ -2,59 +2,54 @@ import React, { useState } from 'react';
 
 const questions = [
   {
-    question: "What was the name of the first artificial satellite launched into space?",
-    options: ["Sputnik 1", "Explorer 1", "Voyager 1", "Apollo 11"],
+    question: "What does YCCE stand for?",
+    options: ["Yeshwantrao Chavan College of Engineering", "Yashwantrao College of Computer Education", "Yashwant Central College of Engineering", "Yogendra Chavan College of Education"],
     correctAnswerIndex: 0
   },
   {
-    question: "Who was the first person to walk on the Moon?",
-    options: ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"],
+    question: "In which year was YCCE established?",
+    options: ["1980", "1984", "1990", "1995"],
+    correctAnswerIndex: 1
+  },
+  {
+    question: "Where is YCCE located?",
+    options: ["Mumbai", "Nagpur", "Pune", "Aurangabad"],
+    correctAnswerIndex: 1
+  },
+  {
+    question: "Which university is YCCE affiliated with?",
+    options: ["Mumbai University", "Rashtrasant Tukadoji Maharaj Nagpur University", "Savitribai Phule Pune University", "Delhi University"],
+    correctAnswerIndex: 1
+  },
+  {
+    question: "What is the annual cultural event hosted by YCCE called?",
+    options: ["Technovanza", "Yuvotsav", "Yashotsav", "InfinITy"],
+    correctAnswerIndex: 1
+  },
+  {
+    question: "Which department is known as the 'core engineering' branch at YCCE?",
+    options: ["Mechanical Engineering", "Computer Technology", "Civil Engineering", "Electronics Engineering"],
+    correctAnswerIndex: 0
+  },
+  {
+    question: "What is the grading system used at YCCE?",
+    options: ["Percentage", "CGPA", "Marks", "Grades"],
+    correctAnswerIndex: 1
+  },
+  {
+    question: "Which body accredits YCCE?",
+    options: ["AICTE", "NBA", "NAAC", "UGC"],
     correctAnswerIndex: 2
   },
   {
-    question: "Which planet is known as the 'Red Planet'?",
-    options: ["Venus", "Mars", "Jupiter", "Saturn"],
-    correctAnswerIndex: 1
-  },
-  {
-    question: "What is the name of NASA’s most famous space telescope?",
-    options: ["Kepler", "Spitzer", "Hubble", "James Webb"],
+    question: "What type of institution is YCCE?",
+    options: ["Government", "Private", "Autonomous", "Deemed University"],
     correctAnswerIndex: 2
   },
   {
-    question: "Which space agency successfully landed the Perseverance rover on Mars in 2021?",
-    options: ["NASA", "ESA", "Roscosmos", "ISRO"],
+    question: "Which of the following is a popular technical fest held at YCCE?",
+    options: ["Innovision", "TechFury", "Enginova", "TechMania"],
     correctAnswerIndex: 0
-  },
-  {
-    question: "What is the purpose of the International Space Station (ISS)?",
-    options: [
-      "Military surveillance",
-      "Research and scientific studies",
-      "Space tourism",
-      "Mining in space"
-    ],
-    correctAnswerIndex: 1
-  },
-  {
-    question: "Which spacecraft was the first to successfully land on Mars?",
-    options: ["Viking 1", "Sojourner", "Opportunity", "Spirit"],
-    correctAnswerIndex: 0
-  },
-  {
-    question: "What type of rocket was used to launch the Apollo missions?",
-    options: ["Falcon 9", "Saturn V", "Soyuz", "Atlas V"],
-    correctAnswerIndex: 1
-  },
-  {
-    question: "Which space agency launched the first reusable spacecraft?",
-    options: ["NASA", "ISRO", "Roscosmos", "ESA"],
-    correctAnswerIndex: 0
-  },
-  {
-    question: "Which country was the first to send a human into space?",
-    options: ["USA", "Russia", "China", "Japan"],
-    correctAnswerIndex: 1
   }
 ];
 
